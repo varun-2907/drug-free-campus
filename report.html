@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Anonymous Reporting - Drug-Free Campus</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- ==== Simple Header ==== -->
+		<header>
+			<nav class="navbar">
+				<a href="index.html#home" class="nav-logo">Drug-Free Campus</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">← Back to Home</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="content-section">
+				<div class="report-content">
+					<h1>Anonymous Reporting</h1>
+					<p class="report-intro">
+						If you see something, say something. Your report is 100% anonymous.
+						We do not track your IP address or any personal information. Please
+						provide as much detail as possible so we can take appropriate
+						action.
+					</p>
+
+					<!-- Form submits to FormSubmit.co -->
+					<form
+						action="https://formsubmit.co/varunkakarla7@gmail.com"
+						method="POST"
+					>
+						<!-- Replace your-email@gmail.com with your actual email address -->
+						<textarea
+							name="report"
+							rows="10"
+							placeholder="Describe the incident, location, time, and any other relevant details..."
+							required
+						></textarea>
+
+						<!-- This tells FormSubmit where to redirect after submission -->
+						<input
+							type="hidden"
+							name="_next"
+							value="https://your-website.com/thanks.html"
+						/>
+						<!-- You will need to host your site to use a custom URL -->
+						<input
+							type="hidden"
+							name="_subject"
+							value="New Anonymous Report - Drug-Free Campus"
+						/>
+						<button type="submit" class="btn-submit">
+							Submit Anonymous Report
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

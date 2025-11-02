@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Drug-Free Campus</title>
+		<link rel="stylesheet" href="style.css" />
+		<!-- Google Fonts for a clean, modern look -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- ==== Header & Navigation ==== -->
+		<header>
+			<nav class="navbar">
+				<a href="#home" class="nav-logo">Drug-Free Campus</a>
+				<ul class="nav-menu">
+					<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+					<li class="nav-item">
+						<a href="#services" class="nav-link">Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="#awareness" class="nav-link">Awareness</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Get Help</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!-- ==== Home Section ==== -->
+			<section id="home" class="hero-section">
+				<div class="hero-content">
+					<h1>A Safe & Supportive Campus For All</h1>
+					<p>
+						Our mission is to foster a healthy, drug-free environment through
+						education, support, and community engagement. Your well-being is our
+						priority.
+					</p>
+				</div>
+			</section>
+
+			<!-- ==== Services Section ==== -->
+			<section id="services" class="content-section">
+				<h2>Our Services</h2>
+				<div class="services-container">
+					<a href="helpline.html" class="service-card-link">
+						<div class="service-card">
+							<h3>Helplines & Therapy</h3>
+							<p>
+								Access confidential helplines and professional online therapy
+								sessions anytime, anywhere.
+							</p>
+						</div>
+					</a>
+					<a href="report.html" class="service-card-link">
+						<div class="service-card">
+							<h3>Anonymous Reporting</h3>
+							<p>
+								Use our secure platform to report concerns anonymously and
+								safely.
+							</p>
+						</div>
+					</a>
+					<a href="education.html" class="service-card-link">
+						<div class="service-card">
+							<h3>Educational Modules</h3>
+							<p>
+								Engage with webinars, blogs, and awareness videos to stay
+								informed and empowered.
+							</p>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<!-- ==== Awareness Section ==== -->
+			<section id="awareness" class="content-section">
+				<h2>Awareness & Education</h2>
+				<div class="awareness-container">
+					<div class="awareness-text">
+						<p>
+							Knowledge is the first step towards prevention. Understanding the
+							risks associated with substance use and knowing where to find help
+							can make a significant difference. We provide reliable information
+							and resources to help you make informed decisions for a healthier
+							life.
+						</p>
+					</div>
+					<div class="awareness-video">
+						<iframe
+							src="https://www.youtube.com/embed/HxXgVbYXVEs"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==== Contact Section ==== -->
+			<section id="contact" class="content-section">
+				<h2>Contact / Get Help</h2>
+				<p class="contact-intro">
+					Your message is confidential. Reach out to us for support or
+					inquiries.
+				</p>
+				<form id="contact-form">
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Your Name"
+						required
+					/>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Your Email"
+						required
+					/>
+					<textarea
+						id="message"
+						name="message"
+						rows="5"
+						placeholder="Your Message"
+						required
+					></textarea>
+					<button type="submit" class="btn-submit">Submit</button>
+				</form>
+			</section>
+		</main>
+
+		<!-- ==== FAQ Section ==== -->
+		<section id="faq" class="content-section">
+			<h2>Frequently Asked Questions</h2>
+			<div class="faq-container">
+				<button class="accordion">
+					Is the support I receive confidential?
+				</button>
+				<div class="accordion-panel">
+					<p>
+						Absolutely. All conversations with our counselors, reports you
+						submit, and interactions with our services are 100% confidential.
+						Your privacy and trust are our top priorities.
+					</p>
+				</div>
+
+				<button class="accordion">
+					What if I'm worried about a friend, not myself?
+				</button>
+				<div class="accordion-panel">
+					<p>
+						It's brave and caring to be concerned for a friend. You can use our
+						helpline to get advice on how to approach them, or read our "How to
+						Support a Friend" blog post in the Educational Modules. You can also
+						make an anonymous report if you are concerned for their immediate
+						safety.
+					</p>
+				</div>
+
+				<button class="accordion">
+					I'm not sure if my problem is "serious" enough. Should I still reach
+					out?
+				</button>
+				<div class="accordion-panel">
+					<p>
+						Yes. There is no problem too big or too small. If something is
+						weighing on your mind, we are here to listen and support you. Early
+						support can make a significant difference. Please don't hesitate to
+						get in touch.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ==== Footer ==== -->
+		<footer>
+			
+			<p>Together for a Drug-Free Future.</p>
+		</footer>
+
+		<!-- ==== Back to Top Button ==== -->
+		<button id="back-to-top" title="Go to top">↑</button>
+
+		<script src="script.js"></script>
+	</body>
+</html>
