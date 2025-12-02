@@ -1,60 +1,54 @@
 # Drug Free Campus
 
-Drug Free Campus is a simple front-end web application designed to raise awareness and promote a drug-free environment on educational campuses. This project provides an interactive and informative platform using only HTML, CSS, and JavaScript. There is no backend—everything runs entirely in the browser, making it easy to deploy and adapt.
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)  
+[Demo](https://varun-2907.github.io/drug-free-campus/) (placeholder)
 
-## Features
+A simple, responsive front-end web project (HTML, CSS, JavaScript) that promotes a drug-free, supportive campus environment. This repository contains static pages (index.html and supporting pages) and requires no backend.
 
-- **Informational Pages:** Educate students and staff about the dangers of drug abuse.
-- **Awareness Campaigns:** Showcase graphics and facts to support a drug-free campus culture.
-- **Interactive UI:** Modern user interface built with responsive HTML, CSS, and vanilla JavaScript.
-- **No Dependencies:** No backend, frameworks, or package managers—just open the HTML files in your browser.
+Quick demo
+- Open index.html locally or view the GitHub Pages demo (link above).
 
-## Getting Started
+How to run locally
 
-To use or test the project locally:
+- Option A — Open in browser:
+  1. Clone the repo: git clone https://github.com/varun-2907/drug-free-campus.git
+  2. Open index.html in your browser.
 
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/varun-2907/drug-free-campus.git
-    cd drug-free-campus
-    ```
+- Option B — Simple local server (recommended for correct routing and embedded content):
+  - Python 3: python -m http.server 8000
+  - Node (http-server): npx http-server -p 8000
+  Then visit http://localhost:8000
 
-2. **Open in Browser**
-    Simply open `index.html` in your preferred web browser:
-    - Double-click `index.html` in your file explorer, **OR**
-    - Run `start index.html` (Windows) or `open index.html` (macOS) in your terminal.
+Project structure
 
-> **No server or additional setup is required.**
+- index.html — Home / main navigation
+- style.css — Styles
+- script.js — UI interactions
+- *.html — Supporting pages (helpline.html, report.html, education.html, etc.)
+- assets/ — images, favicon, social preview (add here)
+- LICENSE — MIT License
 
-## Project Structure
+Pages / features
 
-```
-drug-free-campus/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-└── assets/
-    └── (images, icons, etc.)
-```
+- Informational modules and awareness resources
+- Confidential contact form UI (front-end only)
+- Anonymous reporting UI placeholder (front-end only)
+- Responsive layout and simple accessibility considerations
 
-- All styling is in the `css` folder.
-- JavaScript logic is in the `js` folder.
-- Place images and other assets in the `assets` folder.
+GitHub Pages
 
-## Contributing
+- This repository is set up for deployment to GitHub Pages. The demo URL placeholder above is:
+  https://varun-2907.github.io/drug-free-campus/
 
-Found a bug or have a suggestion? Feel free to [open an issue](https://github.com/varun-2907/drug-free-campus/issues) or submit a pull request!
+Contributing
 
-## License
+- Open an issue or submit a pull request. Add a CONTRIBUTING.md for guidelines if you want to accept external contributions.
 
-This project is licensed under the [MIT License](LICENSE).
+Accessibility & performance notes
 
-## Contact
+- Add alt text to images, check color contrast, and run a Lighthouse audit.
+- Optimize images (WebP / responsive srcset) and lazy-load heavy media.
 
-Maintainer: [@varun-2907](https://github.com/varun-2907)
+License
 
----
-
-*Say YES to a drug-free campus!*
+- MIT License — see LICENSE file.
